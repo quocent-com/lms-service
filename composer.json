@@ -1,0 +1,29 @@
+{
+    "name": "elatih/lms-service",
+    "description": "'Service Provider for Infix Lms application'",
+    "type": "library",
+    "require": {
+        "elatih/service": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "elatih",
+            "email": "hello@elatih.com"
+        }
+    ],
+    "version": "v1.1.9",
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "elatih\\LmsService\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "elatih\\LmsService\\elatihLmsServiceProvider"
+            ]
+        }
+    }
+}
