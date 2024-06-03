@@ -2,9 +2,6 @@
     "name": "elatih/lms-service",
     "description": "'Service Provider for Infix Lms application'",
     "type": "library",
-    "require": {
-        "elatih/service": "dev-master"
-    },
     "license": "MIT",
     "authors": [
         {
